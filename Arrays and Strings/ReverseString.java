@@ -1,3 +1,7 @@
+/**
+*	Implement a function to reverse a String
+**/
+
 public class ReverseString {
 
 	public static void main(String[] args){
