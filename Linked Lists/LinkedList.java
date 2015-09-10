@@ -135,6 +135,10 @@ public class LinkedList<T> {
 		public void setNext(Node next){
 			this.next = next;
 		}
+		
+		public void setData(T data){
+			this.data = data;
+		}
 	}
 
 }
