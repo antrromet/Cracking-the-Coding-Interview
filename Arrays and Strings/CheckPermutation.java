@@ -8,7 +8,7 @@ public class CheckPermutation {
 
 	public static void main(String args[]){
 		System.out.println(args[0]+ " and "+args[1] +(sortCheck(args[0],args[1])?" are ":" aren't ") + "permutations of each other by sorting check");
-		System.out.println(args[0]+ " and "+args[1] +(sortCheck(args[0],args[1])?" are ":" aren't ") + "permutations of each other by char count check");
+		System.out.println(args[0]+ " and "+args[1] +(charCountCheck(args[0],args[1])?" are ":" aren't ") + "permutations of each other by char count check");
 	}
 	
 	private static boolean sortCheck(String str1, String str2){
